@@ -46,6 +46,7 @@ socket.on("message", function(data) {
     socket.send("THANK U FOR EXPANIN MAH NAME XDDDDDDDDDDDDDDDDDDDD")  
   }
   if (data.msg == "chi!github") {
-    socket.send("we dont have it so. :c owner will sent it but not on github but trollbox")  
+    socket.send("go to https://github.com/gooby123456780987654321123456909/chi-bot/tree/main if it is outdated then fahh")  
   }
 })
+
