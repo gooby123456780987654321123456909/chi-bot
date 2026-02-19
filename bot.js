@@ -6,10 +6,10 @@ socket.emit("user joined", "chi!help", "lime", "bot", "");
 
 socket.on("message", function(data) {
   if (data.msg == "chi!hello") {
-    socket.send("Hello, there!")
+    socket.send("Hello there!")
   }
   if (data.msg == "chi!skibiditoilet") {
-   socket.send("fuck you") 
+   socket.send("fuck you, "+data.nick+"") 
   }
   if (data.msg == "chi!help") {
     socket.send("chi!github chi!skibiditoilet chi!hello chi!jokes chi!tayo chi!channachi")  
@@ -49,4 +49,3 @@ socket.on("message", function(data) {
     socket.send("go to https://github.com/gooby123456780987654321123456909/chi-bot/tree/main if it is outdated then fahh")  
   }
 })
-
