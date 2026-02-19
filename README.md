@@ -1,4 +1,4 @@
-you must install node.js
+you must install node.js (required)
 
 unzip teh folder
 
